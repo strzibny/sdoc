@@ -1,0 +1,33 @@
+SDOC(1)
+=======
+:doctype: manpage
+
+
+NAME
+----
+*sdoc* - RDoc generator to build searchable HTML documentation for Ruby code
+
+
+SYNOPSIS
+--------
+*sdoc* ['OPTIONS'] 'PROJECTDIR'
+
+
+DESCRIPTION
+-----------
+SDoc is simply a wrapper for the rdoc command line tool. See "sdoc --help" for more details. '--fmt' is set to shtml by default. The default template '-T' is shtml, but you can also use the direct template.
+
+Example:
+
+sdoc -o doc/rails -T direct rails
+
+
+OPTIONS
+-------
+
+See "sdoc --help" to see all the available options.
+
+SEE ALSO
+--------
+
+sdoc-merge(1)
